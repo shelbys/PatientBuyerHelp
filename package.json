@@ -1,0 +1,48 @@
+{
+  "name": "PatientBuyerHelp",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "",
+    "lint": "yarn -s lint-eslint && yarn -s lint-prettier",
+    "lint-eslint": "eslint --ignore-pattern .vscode --ignore-pattern coverage/ --ignore-pattern dist/",
+    "lint-prettier": "prettier -c **/*.{css,html,js,json,jsx,md}",
+    "clean": "rimraf yarn.lock node_modules",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/mocha": "^10.0.10",
+    "c8": "^10.1.2",
+    "chai": "^5.0.3",
+    "eslint": "^9.24.0",
+    "eslint-plugin-mocha": "^10.5.0",
+    "eslint-plugin-react": "^7.37.5",
+    "mocha": "^11.1.0",
+    "nodemon": "3.1.9",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      ".vscode/*"
+    ],
+    "watch": [
+      "**"
+    ],
+    "exec": "yarn build",
+    "ext": "css,html,js,jsx,json,md,svg,yml"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "printWidth": 120,
+    "proseWrap": "always",
+    "objectWrap": "preserve",
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
+}

@@ -3,10 +3,10 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "build": "",
+    "build": "yarn -s lint",
     "lint": "yarn -s lint-eslint && yarn -s lint-prettier",
     "lint-eslint": "eslint --ignore-pattern .vscode --ignore-pattern coverage/ --ignore-pattern dist/",
-    "lint-prettier": "prettier -c **/*.{css,html,js,json,jsx,md}",
+    "lint-prettier": "prettier -c **/*.{js,json,md}",
     "clean": "rimraf yarn.lock node_modules",
     "dev": "nodemon"
   },
@@ -21,7 +21,7 @@
     "eslint": "^9.29.0",
     "eslint-plugin-mocha": "^11.1.0",
     "eslint-plugin-react": "^7.37.5",
-    "mocha": "^11.6.0",
+    "mocha": "^11.7.0",
     "nodemon": "^3.1.10",
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",

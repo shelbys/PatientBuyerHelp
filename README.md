@@ -1,6 +1,7 @@
 # PatientBuyer Help
 
-This repo is the public face providing support for the (PatientBuyer)[TODO] Chrome Extension.  Using this site, you can -
+This repo is the public face providing support for the (PatientBuyer)[TODO] Chrome Extension. Using this site, you can -
+
 - [Read the latest news and announcements](https://github.com/shelbys/PatientBuyerHelp/discussions/categories/announcements)
 - [Participate in polls that help prioritize bug fixes and feature development](https://github.com/shelbys/PatientBuyerHelp/discussions/categories/polls)
 - [Browse extended help authored for, by, and with the community](https://github.com/shelbys/PatientBuyerHelp/wiki)

@@ -23,7 +23,7 @@
     "eslint-plugin-react": "^7.37.5",
     "mocha": "^11.7.5",
     "nodemon": "^3.1.11",
-    "prettier": "^3.6.2",
+    "prettier": "^3.7.1",
     "rimraf": "^6.1.2",
     "yarn": "^1.22.22",
     "yarn-upgrade-all": "^0.7.5"

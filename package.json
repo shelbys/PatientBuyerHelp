@@ -18,7 +18,7 @@
     "@types/mocha": "^10.0.10",
     "c8": "^11.0.0",
     "chai": "^6.2.2",
-    "eslint": "^10.0.3",
+    "eslint": "^10.1.0",
     "eslint-plugin-mocha": "^11.2.0",
     "eslint-plugin-react": "^7.37.5",
     "mocha": "^11.7.5",

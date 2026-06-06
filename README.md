@@ -23,7 +23,7 @@ git clone https://github.com/shelbys/PatientBuyerHelp.git
 
 ```bash
 cd PatientBuyerHelp
-yarn install
+pnpm install
 ```
 
 ## Development
@@ -31,7 +31,7 @@ yarn install
 For live reload development, use
 
 ```bash
-yarn -s dev
+pnpm -s dev
 ```
 
 ## Contributing

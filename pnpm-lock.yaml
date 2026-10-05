@@ -13,7 +13,7 @@ importers:
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
-        version: 10.0.1(eslint@10.11.0(supports-color@5.5.0))
+        version: 10.0.1(eslint@10.12.0(supports-color@5.5.0))
       '@types/mocha':
         specifier: ^10.0.10
         version: 10.0.10
@@ -24,14 +24,14 @@ importers:
         specifier: ^6.3.0
         version: 6.3.0
       eslint:
-        specifier: ^10.11.0
-        version: 10.11.0(supports-color@5.5.0)
+        specifier: ^10.12.0
+        version: 10.12.0(supports-color@5.5.0)
       eslint-plugin-mocha:
         specifier: ^12.0.2
-        version: 12.0.2(eslint@10.11.0(supports-color@5.5.0))
+        version: 12.0.2(eslint@10.12.0(supports-color@5.5.0))
       eslint-plugin-react:
         specifier: ^7.37.5
-        version: 7.37.5(eslint@10.11.0(supports-color@5.5.0))
+        version: 7.37.5(eslint@10.12.0(supports-color@5.5.0))
       globals:
         specifier: ^17.13.0
         version: 17.13.0
@@ -416,8 +416,8 @@ packages:
     resolution: {integrity: sha512-tD40eHxA35h0PEIZNeIjkHoDR4YjjJp34biM0mDvplBe//mB+IHCqHDGV7pxF+7MklTvighcCPPZC7ynWyjdTA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  eslint@10.11.0:
-    resolution: {integrity: sha512-P7a6UEEqb9G95MYAtqkmsTbVXIYyzIfl6NGOIJk162PaahFxFyeGcrlXYFSiagECg4sEm8IseJdZBKR3rx6MsQ==}
+  eslint@10.12.0:
+    resolution: {integrity: sha512-npHjrHb2o4ehH3mE+YuxABR+0gyb0aVWCIolgJDArwCiHEIsonBm3ZKjel5b0U5+a+MbEvIyRCGCzD3eKKK2NA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     hasBin: true
     peerDependencies:
@@ -1207,9 +1207,9 @@ snapshots:
       hashery: 1.5.1
       keyv: 5.6.0
 
-  '@eslint-community/eslint-utils@4.10.1(eslint@10.11.0(supports-color@5.5.0))':
+  '@eslint-community/eslint-utils@4.10.1(eslint@10.12.0(supports-color@5.5.0))':
     dependencies:
-      eslint: 10.11.0(supports-color@5.5.0)
+      eslint: 10.12.0(supports-color@5.5.0)
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.2': {}
@@ -1230,9 +1230,9 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
 
-  '@eslint/js@10.0.1(eslint@10.11.0(supports-color@5.5.0))':
+  '@eslint/js@10.0.1(eslint@10.12.0(supports-color@5.5.0))':
     optionalDependencies:
-      eslint: 10.11.0(supports-color@5.5.0)
+      eslint: 10.12.0(supports-color@5.5.0)
 
   '@eslint/object-schema@3.0.5': {}
 
@@ -1640,17 +1640,17 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-plugin-mocha@12.0.2(eslint@10.11.0(supports-color@5.5.0)):
+  eslint-plugin-mocha@12.0.2(eslint@10.12.0(supports-color@5.5.0)):
     dependencies:
-      '@eslint-community/eslint-utils': 4.10.1(eslint@10.11.0(supports-color@5.5.0))
+      '@eslint-community/eslint-utils': 4.10.1(eslint@10.12.0(supports-color@5.5.0))
       '@eslint/core': 1.2.1
       '@types/estree': 1.0.9
-      eslint: 10.11.0(supports-color@5.5.0)
+      eslint: 10.12.0(supports-color@5.5.0)
       globals: 17.8.0
       json-schema-to-ts: 3.1.1
       type-fest: 5.8.0
 
-  eslint-plugin-react@7.37.5(eslint@10.11.0(supports-color@5.5.0)):
+  eslint-plugin-react@7.37.5(eslint@10.12.0(supports-color@5.5.0)):
     dependencies:
       array-includes: 3.2.0
       array.prototype.findlast: 1.2.5
@@ -1658,7 +1658,7 @@ snapshots:
       array.prototype.tosorted: 1.1.4
       doctrine: 2.1.0
       es-iterator-helpers: 1.4.0
-      eslint: 10.11.0(supports-color@5.5.0)
+      eslint: 10.12.0(supports-color@5.5.0)
       estraverse: 5.3.0
       hasown: 2.0.4
       jsx-ast-utils: 3.3.5
@@ -1683,9 +1683,9 @@ snapshots:
 
   eslint-visitor-keys@5.0.1: {}
 
-  eslint@10.11.0(supports-color@5.5.0):
+  eslint@10.12.0(supports-color@5.5.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.10.1(eslint@10.11.0(supports-color@5.5.0))
+      '@eslint-community/eslint-utils': 4.10.1(eslint@10.12.0(supports-color@5.5.0))
       '@eslint-community/regexpp': 4.12.2
       '@eslint/config-array': 0.23.5(supports-color@5.5.0)
       '@eslint/config-helpers': 0.7.0
